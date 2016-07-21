@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="scripts/jquery-3.0.0.js"></script>
+    <script src="scripts/zepto.js"></script>
+
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        .sss {
+            background-color: red;
+        }
+
+        .ssss {
+            font-size: xx-large;
+        }
+        abbr[title='ew']{
+            border-bottom:1px dotted #999;
+        }
+        abbr[title]:hover,abbr[title]:focus{
+            cursor:help;
+        }
+    </style>
+</head>
+<body>
+   <p class="sss" id="p" style="width:50px;">The term <abbr title="ew">Sucba</abbr> is an  sa</p>
+
+    <div>我是另外一个p哈</div>
+    <script>
+        var s = $('#p');
+        var ss = s.attr('id');
+        alert(ss);
+    </script>
+</body>
+</html>
